@@ -21,10 +21,6 @@ git clone https://github.com/yourgithubusername/scientific-calculator.git
 ```
 2. Open the index.html file in your web browser.
     
-## Screenshots
-
-![App Screenshot](https://ibb.co/WgW6fzZ)
-
 
 ## Contributing
 
