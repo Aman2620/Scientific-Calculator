@@ -1,0 +1,135 @@
+@media screen and (min-width:960px) {
+  body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container{
+    width: 45%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 20px #cbced1,
+                -12px -12px 20px #DADDDD;
+  }
+  .display #screen{
+    width: 97%;
+    height: 70px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+  .btns{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .btns .row button{
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 16;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #000000020,
+                -5px -5px 8px #ffffff;
+
+  }
+
+  .btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1),
+                inset -5px -5px 8px rgba(16, 16, 16, 0.1);
+                background: #fff
+  }
+  #green-fix{
+    background: lightgreen;
+  }
+
+  #blue-fix{
+    background: lightblue;
+  }
+}
+
+@media screen and (max-width:576px) {
+  body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container{
+    width: 85%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 20px #cbced1,
+                -12px -12px 20px #DADDDD;
+  }
+  .display #screen{
+    width: 97%;
+    height: 70px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+  .btns{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .btns .row button{
+    cursor: pointer;
+    width:35px;
+    height: 20px;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 10;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #000000020,
+                -5px -5px 8px #ffffff;
+
+  }
+
+  .btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1),
+                inset -5px -5px 8px rgba(16, 16, 16, 0.1);
+                background: #fff
+  }
+  #green-fix{
+    background: lightgreen;
+  }
+
+  #blue-fix{
+    background: lightblue;
+  }
+
+}
