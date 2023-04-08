@@ -23,7 +23,7 @@ git clone https://github.com/yourgithubusername/scientific-calculator.git
     
 ## Screenshots
 
-![App Screenshot](https://ibb.co/WgW6fzZ)
+[App Screenshot](https://ibb.co/WgW6fzZ)
 
 
 ## Contributing
